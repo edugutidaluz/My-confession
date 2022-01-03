@@ -52,7 +52,7 @@ section {
     padding-left: 30px;
     line-height: 2em;
     font-family: var(--fonte3);
-    font-size: 3vw;
+    font-size: 3.2vw;
 }
 
 section > p {
@@ -62,8 +62,24 @@ section > p {
 section.normal {
     background-color: white;
     color: black;
-    background-image: url('../imagens/parel.jpeg');
-    background-position: left center;
+    
+}
+
+section#nor01 {
+    background-image: url('../imagens/pare1.jpg');
+    background-position: top right;
+    background-size: cover;
+}
+
+section#nor02 {
+    background-image: url('../imagens/pare1.jpg');
+    background-position: center right;
+    background-size: cover;
+}
+
+section#nor03 {
+    background-image: url('../imagens/pare1.jpg');
+    background-position: bottom right;
     background-size: cover;
 }
 
@@ -88,9 +104,8 @@ section#img01 {
 }
 
 section#img02{
-    background-image: url('../imagens/coracao.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-image: url('../imagens/rosa-roxa.jpg');
+    background-position: left center;
 }
 
 footer {
